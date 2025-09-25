@@ -1,14 +1,14 @@
+import { useState } from 'react'
 import './App.css'
+import HomeScreem from './components/homeScreem/HomeScreem'
 
 function App() {
+  const [isGameStarted, setIsGameStarted] = useState(false);
+
   return (
-    <>
-       <div className="flex justify-center items-center h-screen bg-gray-900 text-white font-mono">
-      <h1 className="text-4xl animate-pulse">
-        Iniciando el Portafolio Retro...
-      </h1>
+    <div className="App bg-gray-900 text-white font-mono">
+       <HomeScreem isGameStarted={isGameStarted} setIsGameStarted={setIsGameStarted} />
     </div>
-    </>
   )
 }
 
