@@ -1,6 +1,6 @@
 import pjPic from '../../assets/retro-pj.png'
 
-function HomeScreem({ isGameStarted, setIsGameStarted }) {
+function HomeScreen({ isGameStarted, setIsGameStarted }) {
 
     const handleStartGame = () => {
         setIsGameStarted(true);
@@ -28,4 +28,4 @@ function HomeScreem({ isGameStarted, setIsGameStarted }) {
     );
 }
 
-export default HomeScreem;
+export default HomeScreen;

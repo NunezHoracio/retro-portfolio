@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import HomeScreem from './components/homeScreem/HomeScreem'
+import HomeScreen from './components/homeScreen/HomeScreen';
 
 function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
 
   return (
     <div className="App bg-gray-900 text-white font-mono">
-       <HomeScreem isGameStarted={isGameStarted} setIsGameStarted={setIsGameStarted} />
+       <HomeScreen isGameStarted={isGameStarted} setIsGameStarted={setIsGameStarted} />
     </div>
   )
 }
