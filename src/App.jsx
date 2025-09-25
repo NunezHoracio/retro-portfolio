@@ -6,8 +6,8 @@ function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
 
   return (
-    <div className="App bg-gray-900 text-white font-mono">
-       <HomeScreen isGameStarted={isGameStarted} setIsGameStarted={setIsGameStarted} />
+    <div className="App bg-gray-900 text-white font-jersey 15">
+       <HomeScreen setIsGameStarted={setIsGameStarted} />
     </div>
   )
 }
